@@ -173,12 +173,12 @@
  .maqe{
     align-items: center;
     flex-wrap: wrap;
-    gap: 5vh;
+    gap: 3لهvh;
  }
 
  .maqe-out
  {
-    width:calc(90%/2) !important;
+    width:calc(80%/2) !important;
     flex-direction: column !important;
     gap: 3vh;
  }
