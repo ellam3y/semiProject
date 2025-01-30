@@ -97,11 +97,12 @@
 
     .reg{
         display: flex !important;
-        width: 90% !important;
+        width: 100% !important;
         height: auto !important;
         flex-direction: column;
         /* justify-content: start; */
         align-items: start;
+        margin-top: 1.4em !important;
     }
 
     .reg-btttn{
@@ -148,14 +149,14 @@
     width: 100% !important;
 }
 .chair img{
-    width: 100%;
+    width: 100% !important;
 }
 
 
 .sec3{
-    height: 100vh !important;
+    height: 150vh !important;
     margin-bottom: 5Vh !important;
-    overflow: hidden;
+    overflow: hidden !important;
     /* background-color: #d1020d !important; */
     /* padding: 20px !important; */
 }
@@ -173,7 +174,7 @@
  .maqe{
     align-items: center;
     flex-wrap: wrap;
-    gap: 3لهvh;
+    gap: 3vh;
  }
 
  .maqe-out
@@ -189,14 +190,57 @@
  .sec5
  {
     flex-direction: column !important;
-    height: 300vh !important;
+    height:fit-content!important;
+    gap: 50px;
  }
  .sec5>div{
     width: 90% !important;
  }
+ 
+ .sec5-div1{
+    height: 70vh !important;
+ }
+ .sec5-div1 h1{
+    letter-spacing: normal;
+    line-height: normal; 
+    padding: 2% !important;
+ }
+
+ .sec5-div1 img{
+    width: 100% !important;
+    top: 3% !important;
+    right: 0% !important;
+ }
+
+ .sec5-div1-child{
+
+    margin-top: 15% !important;
+    background-position: center;
+    height: 50vh !important;
+ }
+
+ .sec5-div1-p
+{
+    padding: 1% !important;
+}
+
+.sec5-div1-p .sec5-div1-p-p2{
+
+    font-size: larger;
+    font-weight: 700;
+}
+
  .sec5-div2{
     background-position: center;
+    height: 70vh !important;
  }
+
+ .sec5-div2 p ,.sec5-div2 :active{
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: normal;
+ }
+
 
 /* ////////////////////////////////////////////////////////////// */
 
