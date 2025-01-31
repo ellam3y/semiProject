@@ -102,7 +102,9 @@
         flex-direction: column;
         /* justify-content: start; */
         align-items: start;
-        margin-top: 1.4em !important;
+        /* margin-top: 1.4em !important; */
+        position: absolute;
+        bottom: 0 !important;
     }
 
     .reg-btttn{
@@ -154,7 +156,7 @@
 
 
 .sec3{
-    height: 150vh !important;
+    height: 135vh !important;
     margin-bottom: 5Vh !important;
     overflow: hidden !important;
     /* background-color: #d1020d !important; */
