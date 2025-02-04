@@ -142,26 +142,7 @@
     
 
 /* ///////////////////////////end header////////////////////////// */
-.chair{
-    display: flex;
-    flex-direction: column-reverse !important;
 
-}
- .chair .cap{
-    width: 100% !important;
-}
-.chair img{
-    width: 100% !important;
-}
-
-
-.sec3{
-    height: 135vh !important;
-    margin-bottom: 5Vh !important;
-    overflow: hidden !important;
-    /* background-color: #d1020d !important; */
-    /* padding: 20px !important; */
-}
 
 
     /* ////////////////////////////////////////الدوايررر///////////////////////////////////////// */

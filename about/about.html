@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+
+    <link rel="icon" href="../imgs/favicon.ico" type="image/x-icon">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./about.css" />
+
+    <link rel="stylesheet" href="responsive-about.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <!-- ///////////////////////////////////////balckNav///////////////////////////////// -->
+      <a href="#arooow-topp" class="back-to-top" rel="noopener noreferrer">
+        <img src="../imgs/arrow-top.png" alt="" srcset="" />
+      </a>
+<!-- /////////////////////////////////////////backtoTop/////////////////////////////////// -->
+ 
+      <div
+        class="befor-header d-flex p-2 ps-5 pe-5 container-fluid bg-dark justify-content-between align-items-center"
+        id="arooow-topp"
+      >
+        <p class="container text-light mb-0">
+          Up to 40% off Best-Selling Furniture.
+          <a href="../shop/shop.html" class="text-decoration-underline text-light"
+            >Shop Now</a
+          >
+        </p>
+
+        <div class="col-2 text-white d-flex justify-content-evenly butn">
+          <button
+            class="bg-transparent text-white border-0 dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            English
+          </button>
+
+          <ul
+            class="dropdown-menu bef-hed-drop p-2"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Deutch </a></li>
+          </ul>
+
+          <button
+            class="bg-transparent text-white border-0 dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            USD
+          </button>
+
+          <ul
+            class="dropdown-menu bef-hed-drop p-2"
+            aria-labelledby="dropdownMenuButton2"
+          >
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Deutch </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ///////////////////////////// header///////////////////////// -->
+
+      <header
+        class="d-flex justify-content-between col-12 p-3 position-sticky top-0"
+      >
+        <div
+          class="hed-left col-2 d-flex justify-content-evenly align-items-center"
+        >
+          <img
+            src="../imgs/menu-bar.png"
+            alt=""
+            srcset=""
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          />
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header justify-content-end p-2">
+              <button
+                type="button"
+                class="btn-close text-reset m-4"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div
+              class="offcanvas-body w-100 d-flex flex-column align-items-start position-relative"
+            >
+              <a
+                href="http://"
+                target="_blank"
+                class="dropend d-flex flex-column justify-content-between p-2"
+              >
+                Home
+              </a>
+              <a
+                href="./shop/shop.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Shop</a
+              >
+              <a
+                href="../product/product.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >products</a
+              >
+              <a
+                href="./about/about.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About us
+              </a>
+              <a
+                href="../contact/contct.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                contact us
+              </a>
+
+              <div class="reg d-none">
+                <div class="reg-btttn">
+                  <button
+                    class="bg-transparent text-white dropup border-0 dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+
+                  <ul
+                    class="dropdown-menu bef-hed-drop p-2"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Deutch </a></li>
+                  </ul>
+
+                  <button
+                    class="bg-transparent dropup text-white border-0 dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    USD
+                  </button>
+
+                  <ul
+                    class="dropdown-menu bef-hed-drop p-2"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Deutch </a></li>
+                  </ul>
+                </div>
+                <div class="reg-div1-hed-right-pepole">
+                  <img src="../imgs/people.png" alt="" srcset="" class="  " />
+                  <a class="btn btn-dark text-white" href="">LOG IN</a>
+                  <a class="btn btn-dark text-white" href="">SING UP</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img
+            src="../imgs/search.png"
+            alt=""
+            srcset=""
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample2"
+            aria-controls="offcanvasExample"
+          />
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasExample2"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div
+              class="offcanvas-header right-offcanvas-hed justify-content-between p-2"
+            >
+              <p class="m-4">Search for products (0)</p>
+              <button
+                type="button"
+                class="btn-close text-reset m-4"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div
+              class="right-offcanvas-body offcanvas-body d-flex justify-content-center"
+            >
+              <div
+                class="right-offcanvas-body-con w-75 d-flex flex-row justify-content-evenly align-items-center"
+              >
+                <input
+                  type="search"
+                  class="w-75 p-2"
+                  value=""
+                  placeholder="search for products...."
+                />
+                <a
+                  href="../product/product.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="../imgs/search.png" alt="search" srcset=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hed-center col-8 d-flex justify-content-center">
+          <a
+            href="../index.html"
+            class="w-100 d-flex align-items-center justify-content-center"
+            rel="noopener noreferrer"
+            ><img src="../imgs/logo.png" alt="" srcset="" class="w-25"
+          /></a>
+        </div>
+
+        <div
+          class="hed-right col-2 d-flex justify-content-evenly align-items-center p-1"
+        >
+          <div
+            class="div1-hed-right-pepole col-3 d-flex justify-content-center align-items-center position-relative"
+          >
+            <img src="../imgs/people.png" alt="" srcset="" class="col-sm-0" />
+            <form
+              action=""
+              method="post"
+              class="pepole-form position-absolute d-none input-group"
+            >
+              <input
+                type="text"
+                value=""
+                class="input-group-text"
+                placeholder="user name"
+              />
+              <input
+                type="password"
+                value=""
+                class="input-group-text"
+                placeholder="user password"
+              />
+              <div class="pepole-form-down">
+                <button type="button" class="btn btn-dark text-bg-light">
+                  SIGN IN
+                </button>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div
+            class="div2-hed-right-heart col-3 position-relative d-flex justify-content-center align-items-center"
+          >
+            <div class="hed-right-div-counter">0</div>
+            <img src="../imgs/heart.png" class="heart" alt="" srcset="" />
+          </div>
+
+          <div
+            class="div2-hed-right-shoppingCart col-3 position-relative d-flex justify-content-center align-items-center"
+          >
+            <div class="hed-right-div-counter">0</div>
+            <img src="../imgs/shopping-cart.png" alt="" srcset="" />
+          </div>
+        </div>
+      </header>
+      <!-- ///////////////////////////////////EndHeader////////////////////////////////// -->
+      <!-- ////////////////////////////breadcrumb///////////////////////// -->
+
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+          </ol>
+        </nav>
+
+        <!-- ///////////////////////////end breadcrumb/////////////////////////////////// -->
+        <!-- /////////////////////////العنوان والصوره//////////////////////////////////////// -->
+         <section class="photHed d-flex flex-column align-items-center ">
+          <div class="div1">
+            <h1>About Noon’i</h1>
+            <p>Noon’i was established in 1990, consectetur eleifend commodo at, consectetur eu justo. Sed viverra consectetur risus nec ultricies.</p>
+          </div>
+          
+          <div class="div2"></div>
+         </section>
+         <!-- ////////////////////////////////////////////////////////////////////////////// -->
+          <section class="sec4">
+
+            <div class="sec4-div1"></div>
+
+            <div class="sec4-div2">
+
+              <h2>HOW WE WORKS</h2>
+
+              <div class="sec4-div2-child1">
+                <h4>Production Design</h4>
+                <p>Integer dignissim sagittis quam. Maecenas sem eros, rutrum vitae risus eget, vulputate aliquam nisi.
+                </p>
+              </div>
+
+              <div class="sec4-div2-child2">
+                <h4>Manufacturing</h4>
+                <p>Maecenas sem eros, rutrum vitae risus eget, vulputate aliquam nisi ex gravida neque tempus.</p>
+              </div>
+
+              <div class="sec4-div2-child3">
+                <h4>Marketing and selling</h4>
+                <p>Rutrum vitae risus eget, vulputate aliquam nisi ex gravida neque tempus.</p>
+              </div>
+
+            </div>
+          </section>
+          <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+           <section class="sec5">
+            <h1>OUR TEAM</h1>
+
+            <div class="cards">
+
+              <div class="card1">
+
+                <div class="card1-icons disapper">
+                  <img src="../imgs/about/team-1.jpg" alt="" srcset="">
+                  <div class="div1-social d-none">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>                
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+                </div>
+
+                
+
+                <div class="cards-info">
+
+                  <p>ceo & founder</p>
+
+                  <a href="" target="_blank">johan hossin</a>
+
+                </div>
+
+              </div>
+
+              <div class="card1">
+
+                <div class="card2-icons disapper">
+                  <img src="../imgs/about/team-2.jpg" alt="" srcset="">
+                  <div class="div1-social d-none">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>                
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+                </div>
+
+                
+
+                <div class="cards-info">
+
+                  <p>saler</p>
+
+                  <a href="" target="_blank">charlotte</a>
+
+                </div>
+
+              </div>
+
+              <div class="card1">
+
+                <div class="card3-icons disapper">
+                  <img src="../imgs/about/team-3.jpg" alt="" srcset="">
+                  <div class="div1-social d-none">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>                
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+                </div>
+
+                
+
+                <div class="cards-info">
+
+                  <p>graphic designer</p>
+
+                  <a href="" target="_blank">chris pattetson</a>
+
+                </div>
+
+              </div>
+
+              <div class="card1">
+
+                <div class="card4-icons disapper">
+                 <img src="../imgs/about/team-4.jpg" alt="" srcset="">
+                 <div class="div1-social d-none">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>                
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+                </div>
+
+                
+
+                <div class="cards-info">
+
+                  <p>markiting</p>
+
+                  <a href="" target="_blank">isabella </a>
+
+                </div>
+              </div>
+
+
+            </div>
+           </section>
+
+           <!-- /////////////////////////////sec6//////////////////////////sec6//////////////////////////// -->
+
+           <section class="sec6">
+            
+            <div class="sec6-div1">
+              <h1>We Deliver Genuine Products</h1>
+              <p>Sed viverra consectetur risus nec ultricies. Curabitur tincidunt tincidunt urna id maximus.</p>
+              <button class="btn btn-light ">contact us</button>
+            </div>
+           </section>
+
+           <!-- ///////////////////////////////sec7/////////////////////// -->
+            <section class="sec7">
+              <div class="image1">
+                <img src="../imgs/about/brand-1.png" alt="" srcset="">
+              </div>
+              <div class="image2">
+                <img src="../imgs/about/brand-2.png" alt="" srcset="">
+              </div>
+              <div class="image3">
+                <img src="../imgs/about/brand-3.png" alt="" srcset="">
+              </div>
+              <div class="image4">
+                <img src="../imgs/about/brand-4.png" alt="" srcset="">
+              </div>
+              <div class="image5">
+                <img src="../imgs/about/brand-5.png" alt="" srcset="">
+              </div>
+              <div class="image6">
+                <img src="../imgs/about/brand-6.png" alt="" srcset="">
+              </div>
+            </section>
+        <!-- ////////////////////////////////////fooooter//////////////////////////////////////// -->
+      <footer
+        class="d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="footer-div1 w-100">
+          <div class="footer-div1-1 col-3">
+            <img src="../imgs/logo.png" alt="" srcset="" />
+            <p>Text: +00(234)23-45-666</p>
+            <p>Mon – Fri: 8 am – 8 pm</p>
+            <p>Sat – Sun: 8 am – 7 pm</p>
+          </div>
+
+          <div class="footer-div1-2 col-2">
+            <h4>ABOUT</h4>
+            <a href="">Our Story</a>
+            <a href=""> Careers</a>
+            <a href=""> Influencers</a>
+            <a href=""> Join our team</a>
+          </div>
+
+          <div class="footer-div1-3 col-3">
+            <h4>CUSTOMER SERVICES</h4>
+            <a href=""> Contact Us</a>
+            <a href="">Customer Service</a>
+            <a href="">Find Store</a>
+            <a href=""> Book appointment</a>
+            <a href=""> Shipping & Returns</a>
+          </div>
+          <div class="footer-div1-4 col-4">
+            <h4>SIGN UP FOR EMAILS</h4>
+            <p>
+              Enjoy 15% off* your first order when sign up to our newsletter
+            </p>
+            <form
+              action=""
+              method="get"
+              class="w-100 d-flex justify-content-center align-items-center"
+            >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="p-2 col-8"
+              />
+              <button type="submit" class="p-2 bg-black text-white col-4">
+                supscribe
+              </button>
+            </form>
+            <div
+              class="icons d-flex flex-row justify-content-start align-content-center"
+            >
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-div2 w-100">
+          <div class="footer-div2-1 col-3">
+            <a href="">Privacy Policy</a>
+            <a href="">Help</a>
+            <a href="">FAQs</a>
+          </div>
+
+          <p>© 2021 noonii. All rights reserved</p>
+
+          <div class="pay">
+            <img src="../imgs/Footer/payment.png" alt="" srcset="" />
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>

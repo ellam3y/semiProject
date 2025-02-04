@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nooni</title>
 
+    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -310,99 +313,78 @@
 
     <!-- //////////////////////////////////////////EndHeader///////////////////////////////// -->
     <!-- //////////////////////////////////////////slider///////////////////////////////// -->
+    <section class="sec3-slider">
 
-    <section class="sec3 container-fluid">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel"
-        data-bs-ride="carousel"
-      >
-        <div class="butn carousel-indicators d-flex justify-content-start">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+      <div class="container">
+
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+
+            <div class="perant d-flex justify-content-evenly align-items-center flex-wrap">
+
+              <div class="informations  d-flex flex-column">
+                <h5>new arrivals</h5>
+                <h1 class="anim">chairs & seating you'll love</h1>
+                <p> designer chair style for every space-<span>free shipping</span></p>
+                <a href="http://" target="_blank" rel="noopener noreferrer">shop now</a>
+              </div>
+
+              <div class="photo">
+                <img src="./imgs/slide-1-home1-2.png" alt="" srcset="">
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+
+            <div class="perant  d-flex justify-content-evenly align-items-center flex-wrap">
+
+              <div class="informations">
+                <h5>sall off 30%</h5>
+                <h1 class="anim">lamps & litting great low price</h1>
+                <p> free standerd shipping<span> with 35$</span></p>
+                <a href="http://" target="_blank" rel="noopener noreferrer">shop now</a>
+              </div>
+
+              <div class="photo">
+                <img src="./imgs/slide-2-home1-1.png" alt="" srcset="">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="swiper-slide">
+
+            <div class="perant  d-flex justify-content-evenly align-items-center flex-wrap">
+
+              <div class="informations">
+                <h5>sall off 25%</h5>
+                <h1 class="anim">discoer living room tables</h1>
+                <p>free standerd shipping <span>with 45$</span></p>
+                <a href=" " target="_blank" rel="noopener noreferrer">shop now</a>
+              </div>
+
+              <div class="photo">
+                <img src="./imgs/slide-3-home1-1.png" alt="" srcset="">
+              </div>
+
+            </div>
+
+          </div>
+        
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div
-              class="chair d-flex flex-row-reverse justify-content-center align-items-center"
-            >
-              <img src="./imgs/slide-1-home1-2.png" alt="" srcset="" />
-              <div
-                class="cap d-flex flex-column justify-content-center align-items-start"
-              >
-                <h2>new arrivals</h2>
-                <p>chairs & seating you'll love</p>
-                <h5>
-                  designer chair styles for every space-<span
-                    >free shippinng</span
-                  >
-                </h5>
-                <a href="shop.html" target="_blank" rel="noopener noreferrer"
-                  >shop now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="chair d-flex flex-row-reverse justify-content-center align-items-center"
-            >
-              <img src="./imgs/slide-2-home1-1.png" alt="" srcset="" />
-              <div
-                class="cap d-flex flex-column justify-content-center align-items-start"
-              >
-                <h2>sale off 30%</h2>
-                <p>chairs & seating you'll love</p>
-                <h5>
-                  designer chair styles for every space-<span
-                    >free shippinng</span
-                  >
-                </h5>
-                <a
-                  href="shop.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="chair d-flex flex-row-reverse justify-content-center align-items-center"
-            >
-              <img src="./imgs/slide-3-home1-1.png" alt="" srcset="" />
-              <div
-                class="cap d-flex flex-column justify-content-center align-items-start"
-              >
-                <h2>sale off 30%</h2>
-                <p>discover living room tables</p>
-                <h5>free standerd shipping-<span>with 45$</span></h5>
-                <a href="shop.html" target="_blank" rel="noopener noreferrer">
-                  shop now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
       </div>
+    </div>
     </section>
 
     <!-- ///////////////////////////////////////sec4///////////////////////////////////// -->
@@ -859,10 +841,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./main.js"></script>
   </body>
 </html>

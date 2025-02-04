@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shop</title>
 
+    <link rel="icon" href="../imgs/favicon.ico" type="image/x-icon">
+
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -16,6 +19,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="responsive-shop-tab.css">
+    <link rel="stylesheet" href="responsive-shop-mob.css">
+
   </head>
 
 
@@ -23,13 +29,17 @@
 
 
     
+    <a href="#arooow-topp" class="back-to-top" rel="noopener noreferrer">
+      <img src="../imgs/arrow-top.png" alt="" srcset="" />
+    </a>
+
     <div
       class="befor-header d-flex p-2 ps-5 pe-5 container-fluid bg-dark justify-content-between align-items-center"
+      id="arooow-topp"
     >
-
       <p class="container text-light mb-0">
         Up to 40% off Best-Selling Furniture.
-        <a href="./shop.html" class="text-decoration-underline text-light"
+        <a href="#" class="text-decoration-underline text-light"
           >Shop Now</a
         >
       </p>
@@ -78,7 +88,9 @@
     <header
       class="d-flex justify-content-between col-12 p-3 position-sticky top-0"
     >
-      <div class="hed-left col-2 d-flex justify-content-evenly p-1">
+      <div
+        class="hed-left col-2 d-flex justify-content-evenly align-items-center"
+      >
         <img
           src="../imgs/menu-bar.png"
           alt=""
@@ -102,94 +114,82 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body w-100">
-            <div class="dropend d-flex flex-column justify-content-between p-2">
-              <button
-                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center p-3"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-boundary="viewport"
-              >
-                Home
-              </button>
-              <ul
-                class="dropdown-menu dropdd p-3"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <li><a class="dropdown-item p-1" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Another action</a>
-                </li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropend d-flex flex-column justify-content-between p-2">
-              <button
-                class="btn dropdown-toggle w-100 d-flex justify-content-between g-3 align-items-center p-3"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-boundary="viewport"
-              >
-                Shop
-              </button>
-              <ul
-                class="dropdown-menu dropdd p-3"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <li><a class="dropdown-item p-1" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Another action</a>
-                </li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropend d-flex flex-column justify-content-between p-2">
-              <button
-                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center p-3"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-boundary="viewport"
-              >
-                Product
-              </button>
-              <ul
-                class="dropdown-menu dropdd p-3"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <li><a class="dropdown-item p-1" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Another action</a>
-                </li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropend d-flex flex-column justify-content-between p-2">
-              <button
-                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center p-3"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-boundary="viewport"
-              >
-                Blog
-              </button>
-              <ul
-                class="dropdown-menu dropdd p-3"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <li><a class="dropdown-item p-1" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Another action</a>
-                </li>
-                <li>
-                  <a class="dropdown-item p-1" href="#">Something else here</a>
-                </li>
-              </ul>
+          <div
+            class="offcanvas-body w-100 d-flex flex-column align-items-start position-relative"
+          >
+            <a
+              href="../index.html"
+              target="_blank"
+              class="dropend d-flex flex-column justify-content-between p-2"
+            >
+              Home
+            </a>
+            <a href="shop.html" target="_blank" rel="noopener noreferrer"
+              >Shop</a
+            >
+            <a
+              href="../products/products.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >products</a
+            >
+            <a
+              href="../about/about.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >About us
+            </a>
+            <a
+              href="../contact/contact.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              contact us
+            </a>
+
+            <div class="reg d-none">
+              <div class="reg-btttn">
+                <button
+                  class="bg-transparent text-white dropup border-0 dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </button>
+
+                <ul
+                  class="dropdown-menu bef-hed-drop p-2"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Deutch </a></li>
+                </ul>
+
+                <button
+                  class="bg-transparent dropup text-white border-0 dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  USD
+                </button>
+
+                <ul
+                  class="dropdown-menu bef-hed-drop p-2"
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Deutch </a></li>
+                </ul>
+              </div>
+              <div class="reg-div1-hed-right-pepole">
+                <img src="../imgs/people.png" alt="" srcset="" class="  " />
+                <a class="btn btn-dark text-white" href="">LOG IN</a>
+                <a class="btn btn-dark text-white" href="">SING UP</a>
+              </div>
             </div>
           </div>
         </div>
@@ -232,7 +232,10 @@
                 value=""
                 placeholder="search for products...."
               />
-              <a href="search.html" target="_blank" rel="noopener noreferrer"
+              <a
+                href="../products/products.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 ><img src="../imgs/search.png" alt="search" srcset=""
               /></a>
             </div>
@@ -240,9 +243,9 @@
         </div>
       </div>
 
-      <div class="hed-center col-6 d-flex justify-content-center">
+      <div class="hed-center col-8 d-flex justify-content-center">
         <a
-          href="../index.html"
+          href="index.html"
           class="w-100 d-flex align-items-center justify-content-center"
           rel="noopener noreferrer"
           ><img src="../imgs/logo.png" alt="" srcset="" class="w-25"
@@ -253,9 +256,43 @@
         class="hed-right col-2 d-flex justify-content-evenly align-items-center p-1"
       >
         <div
-          class="div1-hed-right-pepole col-3 d-flex justify-content-center align-items-center"
+          class="div1-hed-right-pepole col-3 d-flex justify-content-center align-items-center position-relative"
         >
-          <img src="../imgs/people.png" alt="" srcset="" />
+          <img src="../imgs/people.png" alt="" srcset="" class="col-sm-0" />
+          <form
+            action=""
+            method="post"
+            class="pepole-form position-absolute d-none input-group"
+          >
+            <input
+              type="text"
+              value=""
+              class="input-group-text"
+              placeholder="user name"
+            />
+            <input
+              type="password"
+              value=""
+              class="input-group-text"
+              placeholder="user password"
+            />
+            <div class="pepole-form-down">
+              <button type="button" class="btn btn-dark text-bg-light">
+                SIGN IN
+              </button>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Default checkbox
+                </label>
+              </div>
+            </div>
+          </form>
         </div>
 
         <div
@@ -273,7 +310,6 @@
         </div>
       </div>
     </header>
-
 <!-- //////////////////////////////////////////////////// -->
 
     <section class="sec1-shop">
@@ -284,7 +320,7 @@
         </ol>
         <h1>Shop</h1>
       </nav>
-
+<!-- /////////////////////////////end nav >>>>>maqe///////////////////////////////////// -->
       <!-- div4 from index.html -->
 
       <div class="sec4">
@@ -981,6 +1017,12 @@
             </button>
           </div>
           <form class="sec2-shop-main-Upper-frm">
+
+            <div class="filterr d-none">
+              <img src="../imgs/filter.png" alt="" srcset="">
+              <p>Filter</p>
+            </div>
+
             <a class="form-check" href="">
               <input
                 class="form-check-input"
@@ -1486,6 +1528,21 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="taps d-none">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-evenly">
+              <li class="page-item first disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item first">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </main>
     </section>

@@ -1,0 +1,288 @@
+@media screen and (max-width: 992px) {
+    header{
+        height: 10vh !important;
+        padding: 0% !important;
+    }
+
+    .hed-left{
+        width: 20% !important;
+    }
+    header .hed-left img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .hed-center {
+        width: 60% !important;
+    }
+
+    .hed-center img{
+        width: 120px !important;
+
+    }
+
+    .hed-right{
+        width: 20% !important;
+        /* justify-content: left !important; */
+    }
+
+    .hed-right>div{
+        width: calc(80%/3) !important;
+        justify-content: space-evenly !important;
+        padding: 0% !important;
+        text-align:center !important;
+    }
+    .hed-right div img{
+        width: 50% !important;
+        /* height: 50px !important; */
+        padding: 0% !important;
+    }
+    .hed-right .hed-right-div-counter{
+        width: 1.1rem !important;
+        height: 1.1rem !important;
+        /* padding: 10% !important; */
+        top: -50% !important;
+        right: -10% !important;
+        font-size: 100%;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .div1-hed-right-pepole:hover .pepole-form
+{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem !important;
+    width: 20rem !important;
+    background-color: #000000cc;
+    top: 1.5rem;
+    right: -5em;
+}
+.pepole-form input{
+    width: 100%;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.pepole-form-down {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pepole-form-down button
+{
+    width: 30%;
+    height: fit-content;
+    padding: 2% !important;
+}
+.pepole-form-down .form-check
+{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+.pepole-form-down .form-check input{
+    width: 3vw;
+    height: 4vh;
+}
+
+
+
+    
+    /* ///////////////////////////////////////////////////////////// */
+    .maqe{
+        width: 100% !important;
+        height: 20vh;
+        justify-content: space-between !important;
+        flex-wrap: wrap;
+        gap: 1rem;
+        overflow: hidden;
+    }
+    .maqe-out
+    {
+       width:calc(80%/3) !important;
+       flex-direction: row !important;
+       flex-wrap: wrap;
+       gap: 1vh;
+    }
+
+    /* ///////////////////////sec2-shop////////////////////////////////////////// */
+    .sec2-shop-main-Upper-butn{
+        width: 20% !important;
+        }
+
+        .sec2-shop-main-Upper-frm{
+            width: 70% !important;
+        }
+    
+    .productss-down>div{
+        width: calc(90%/2) !important;
+    }
+
+
+
+    .taps{
+        display: block !important;
+        width:100% !important;
+        display: flex;
+        justify-content: center !important;
+        /* background-color: blue !important; */
+    }
+    
+    .taps nav{
+        display: block;
+        width: 100%;
+        padding: 0% !important;
+    }
+    
+    .taps .pagination{
+        width: 100% !important;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center !important;
+    }
+    
+    .taps .pagination li{
+        width: fit-content;
+        height: fit-content;
+    }
+    .taps .pagination li a{
+        width: 3rem;
+        max-width: 100% !important;
+        height: 3rem;
+        max-height: 100% !important;
+        text-align: center;
+        border: 1px solid rgb(255, 255, 255);
+        color: black;
+        font-weight: bold;
+        background-color: lightgray;
+        align-content: center;
+    
+    }
+    
+    .taps .pagination li.first a{
+        width: 5rem;
+        padding: 5% !important;
+    }
+
+
+    /* /////////////////////////////////////////////////foooter///////////////////////// */
+
+footer{
+    height: fit-content !important;
+ }
+
+ 
+
+ .footer-div1{
+     width: 100% !important;
+     height: 80% !important;
+     display: flex !important;
+     flex-direction: row !important;
+     flex-wrap: wrap !important;
+     justify-content: center !important;
+     align-items: start !important;
+     /* gap: 40px !important; */
+     padding: 5% 0!important;
+ }
+
+ .footer-div1-1{
+    width: calc(100%/3) !important;
+     order: 1 !important;
+     text-align: center !important;
+     
+ }
+
+ .footer-div1-2{
+    width: calc(100%/3) !important;
+    order: 2 !important;
+
+ }
+ .footer-div1-3{
+    width: calc(100%/3) !important;
+    order: 3 !important;
+    text-align: center !important;
+    align-items: center !important;
+ }
+
+.footer-div1-3 h4{
+    text-align: center;
+}
+
+ 
+
+ .footer-div1>div{
+     gap: 30px !important;
+     align-items: center !important;
+     margin: 5% 0 !important;
+     justify-content: space-between !important;
+ }
+
+ .footer-div1-4{
+     width: 70% !important;
+     order: 4 !important;
+     text-align: center !important;
+ }
+
+ .footer-div1-4 .icons{
+    justify-content: center !important;
+}
+
+ .footer-div2
+{
+ width: 100% !important;
+ height: fit-content !important;
+ /* padding: 10% !important; */
+ border-top: 1px solid rgb(0, 0, 0);
+ display: flex !important;
+ flex-direction: column !important;
+ /* flex-wrap: wrap !important; */
+ gap: 10px !important;
+ /* justify-content: space-between !important; */
+ /* align-items: center !important; */
+ text-align: center !important;
+
+}
+.footer-div2-1{
+ align-items: center !important;
+ justify-content: center !important;
+}
+
+.footer-div2 div, .footer-div2 p{
+ width: 100% !important;
+ text-align: center !important;
+ 
+}
+
+footer .pay{
+ width: 100% !important;
+ height: 50px !important;
+ padding: 0% !important;
+ margin: 0% !important;
+ align-items: start !important;
+}
+footer .pay img{
+ width: 200px !important;
+ margin-left: -50px !important; 
+ height: 20px !important;
+}
+
+}

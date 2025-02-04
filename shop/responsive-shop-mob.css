@@ -96,7 +96,7 @@
     }
 
     .reg{
-        display: flex !important;
+        display: block !important;
         width: 100% !important;
         height: auto !important;
         flex-direction: column;
@@ -142,76 +142,149 @@
     
 
 /* ///////////////////////////end header////////////////////////// */
-.contact-img-con{
-    margin-top: 0vh !important;
-    height:fit-content;
-}
+.sec4{
+    align-items: center;
+    height: 40vh !important;
+    /* gap: 5vh; */
+    margin: 5vh 0 !important;
+ }
 
-.contact-img-con h1{
+ .maqe{
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+    overflow: hidden;
+
+ }
+
+ .maqe-out
+ {
+    width:calc(80%/2) !important;
+    flex-direction: column !important;
+    gap: 3vh;
+ }
+
+ .maqe-out>a{
+    width: 7rem !important;
+ }
+
+
+ .maqe-out .con{
+    width: 100%;
     text-align: center;
+ }
+/* //////////////////////////////sec2-shop//////////////////////////// */
+
+.sec2-shop{
+
+    width: 100% !important;
+    /* background-color: blue; */
 }
 
-.contact-img-con form{
 
-width: 100% !important;
-display: flex;
-flex-direction: column !important;
+aside{
+    display: none;
+}
+
+.sec2-shop main{
+    width: 100% !important;
+}
+
+.sec2-shop-main-Upper-butn{
+display: none;
+}
+
+a[class="form-check"]{
+    display: none;
+}
+
+.sec2-shop-main-Upper-frm{
+ width: 100% !important;
+}
+
+.sec2-shop-main-Upper-frm .dropdown
+{
+    width: 45% !important;
+    /* font-weight: 800 !important; */
 
 }
 
-.form-leftDiv{
-width: 100% !important;
-text-align: center;
-justify-content: center;
-gap: 2rem;
-}
-.form-leftDiv-h{
-text-align: center !important;
-justify-content: center !important;
-gap: 3rem !important;
+.sec2-shop-main-Upper-frm .dropdown:hover .dropdown-menu
+{
+    display: block;
+    position: absolute;
+    bottom: -30vh !important;
+    right: -35px !important;
+    padding: 5% !important;
+    background-color: #ebebeb;
 }
 
-.form-leftDiv-h .informations{
-    text-align: center !important;
+.filterr
+{width: 30%;
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.filterr img{
+    width: 1.5rem;
+}
+
+.filterr p{
+    font-weight: bold;
+    font-size:large;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.productss-down>div{
+    width: calc(90%/2) !important;
+}
+
+.taps{
+    display: block !important;
+    width:100% !important;
+    display: flex;
+    justify-content: center !important;
+    /* background-color: blue !important; */
+}
+
+.taps nav{
+    display: block;
+    width: 100%;
+    padding: 0% !important;
+}
+
+.taps .pagination{
+    width: 100% !important;
+    /* background-color: aqua; */
+    display: flex;
     justify-content: center !important;
 }
 
-.form-leftDiv-h .informations h3 ,.form-leftDiv-h .informations a, .form-leftDiv-h .informations p{
-    width: 100%;
+.taps .pagination li{
+    width: fit-content;
+    height: fit-content;
+}
+.taps .pagination li a{
+    width: 3rem;
+    max-width: 100% !important;
+    height: 3rem;
+    max-height: 100% !important;
     text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    align-content: center;
 
 }
 
-.form-rightDiv{
-    width: 100% !important;
-    height: 150vh !important;
-    background-color: rgb(255, 255, 255);
-    gap: 1rem;
+.taps .pagination li.first a{
+    width: 5rem;
+    padding: 5% !important;
 }
 
-.form-rightDiv-h1{
-    font-size: 30px;
-}
-
-.form-rightDiv .inp{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap !important;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.form-rightDiv input[type="text"] ,.form-rightDiv input[type="email"]{
-    width: 100% !important;
-}
-
-/* ///////////////////////////////////////////////////////////// */
-.iframe{
-    margin-top: 65rem !important;
-}
-
-
-/* ////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////foooter///////////////////////// */
 
 footer{
     height: fit-content !important;
@@ -230,10 +303,9 @@ footer{
      flex-direction: row !important;
      flex-wrap: wrap !important;
      justify-content: space-between !important;
-     align-items: start !important;
+     align-items: center !important;
      /* gap: 40px !important; */
      padding: 5% 0!important;
-    
  }
 
  .footer-div1-1{
@@ -288,7 +360,6 @@ footer{
  
 }
 
-
 footer .pay{
  width: 100% !important;
  height: 50px !important;
@@ -296,9 +367,11 @@ footer .pay{
  margin: 0% !important;
  align-items: start !important;
 }
+
 footer .pay img{
  width: 200px !important;
  margin-left: -50px !important; 
  height: 20px !important;
 }
+
 }
