@@ -15,3 +15,18 @@ const swiper = new Swiper('.swiper', {
       clickable:true,
     },
   });   
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   var mySlider = new Swiper(".mySwiper", {
+  //     slidesPerView: 4,
+  //     spaceBetween: 30,
+  //     centeredSlides: true,
+  //     autoplay: {
+  //       delay: 2500,
+  //       disableOnInteraction: false,
+  //     },
+      
+  //   });
+  // });
+  

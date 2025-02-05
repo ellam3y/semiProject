@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nooni</title>
 
-    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
-
+    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon" />
 
     <link
       rel="stylesheet"
@@ -140,7 +139,7 @@
               >About us
             </a>
             <a
-              href="./contact/contact.html"
+              href="./contact/contct.html"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -314,132 +313,210 @@
     <!-- //////////////////////////////////////////EndHeader///////////////////////////////// -->
     <!-- //////////////////////////////////////////slider///////////////////////////////// -->
     <section class="sec3-slider">
-
       <div class="container">
-
-      <!-- Slider main container -->
-      <div class="swiper">
-
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-
-            <div class="perant d-flex justify-content-evenly align-items-center flex-wrap">
-
-              <div class="informations  d-flex flex-column">
-                <h5>new arrivals</h5>
-                <h1 class="anim">chairs & seating you'll love</h1>
-                <p> designer chair style for every space-<span>free shipping</span></p>
-                <a href="http://" target="_blank" rel="noopener noreferrer">shop now</a>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div
+                class="con-info-photo d-flex flex-wrap justify-content-between align-items-center"
+              >
+                <div class="col-12 col-md-6">
+                  <div
+                    class="informations text-center text-md-start d-flex flex-column justify-content-center g-5"
+                  >
+                    <p class="p1">NEW ARRIVELS</p>
+                    <h2>chair & seating you'll love</h2>
+                    <p class="p2">
+                      designer chair style for every space -
+                      <span class="fw-bold">Free Shipping</span>
+                    </p>
+                    <a href="#">SHOP Now</a>
+                  </div>
+                </div>
+                <div class="photo col-12 col-md-5">
+                  <img class="" src="./imgs/Home/slide-1-home1-2.png" alt="" />
+                </div>
               </div>
-
-              <div class="photo">
-                <img src="./imgs/slide-1-home1-2.png" alt="" srcset="">
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="con-info-photo d-flex flex-wrap justify-content-between align-items-center"
+              >
+                <div class="col-12 col-md-6">
+                  <div
+                    class="informations text-center text-md-start d-flex flex-column justify-content-center g-5"
+                  >
+                    <p class="p1">sall off 30%</p>
+                    <h2>lamps & lighting great low price</h2>
+                    <p class="p2">
+                      free standerd Shipping
+                      <span class="fw-bold"> with 35$</span>
+                    </p>
+                    <a href="#">SHOP Now</a>
+                  </div>
+                </div>
+                <div class="photo col-12 col-md-5">
+                  <img class="" src="./imgs/Home/slide-2-home1-1.png" alt="" />
+                </div>
               </div>
-
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="con-info-photo d-flex flex-wrap justify-content-between align-items-center"
+              >
+                <div class="col-12 col-md-6">
+                  <div
+                    class="informations text-center text-md-start d-flex flex-column justify-content-center g-5"
+                  >
+                    <p class="p1">sall off 25%</p>
+                    <h2>discover livinig room tables</h2>
+                    <p class="p2">
+                      free standerd Shipping
+                      <span class="fw-bold"> with 45$</span>
+                    </p>
+                    <a href="#">SHOP Now</a>
+                  </div>
+                </div>
+                <div class="photo col-12 col-md-5">
+                  <img class="" src="./imgs/Home/slide-3-home1-1.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
-          <div class="swiper-slide">
-
-            <div class="perant  d-flex justify-content-evenly align-items-center flex-wrap">
-
-              <div class="informations">
-                <h5>sall off 30%</h5>
-                <h1 class="anim">lamps & litting great low price</h1>
-                <p> free standerd shipping<span> with 35$</span></p>
-                <a href="http://" target="_blank" rel="noopener noreferrer">shop now</a>
-              </div>
-
-              <div class="photo">
-                <img src="./imgs/slide-2-home1-1.png" alt="" srcset="">
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="swiper-slide">
-
-            <div class="perant  d-flex justify-content-evenly align-items-center flex-wrap">
-
-              <div class="informations">
-                <h5>sall off 25%</h5>
-                <h1 class="anim">discoer living room tables</h1>
-                <p>free standerd shipping <span>with 45$</span></p>
-                <a href=" " target="_blank" rel="noopener noreferrer">shop now</a>
-              </div>
-
-              <div class="photo">
-                <img src="./imgs/slide-3-home1-1.png" alt="" srcset="">
-              </div>
-
-            </div>
-
-          </div>
-        
+          <!-- If we need pagination -->
+          <div class="swiper-pagination text-center text-md-start"></div>
         </div>
-
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
       </div>
-    </div>
     </section>
 
     <!-- ///////////////////////////////////////sec4///////////////////////////////////// -->
     <section class="sec4">
       <h1>shop by category</h1>
-      <div class="maqe">
-        <div class="maqe-out">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            ><img src="./imgs/Home/chair-1.jpg" alt="" srcset=""
-          /></a>
 
-          <div class="con">
+      <swiper-container
+        class="mySwiper maqe container"
+        slides-per-view="4"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+        loop="true"
+      >
+        <swiper-slide>
+          <div class="maqe-out">
             <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><h4>chair</h4></a
-            >
-            <p>5 products</p>
-          </div>
-        </div>
+              ><img src="./imgs/Home/chair-1.jpg" alt="" srcset=""
+            /></a>
 
-        <div class="maqe-out">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            ><img src="./imgs/Home/bed.jpg" alt="" srcset=""
-          /></a>
-          <div class="con">
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>chair</h4></a
+              >
+              <p>5 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
             <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><h4>Bed</h4></a
-            >
-            <p>7 products</p>
+              ><img src="./imgs/Home/bed.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>Bed</h4></a
+              >
+              <p>7 products</p>
+            </div>
           </div>
-        </div>
+        </swiper-slide>
 
-        <div class="maqe-out">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            ><img src="./imgs/Home/lamp-1.jpg" alt="" srcset=""
-          /></a>
-          <div class="con">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <h4>Lamp</h4></a
-            >
-            <p>7 products</p>
-          </div>
-        </div>
-
-        <div class="maqe-out">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            ><img src="./imgs/Home/table.jpg" alt="" srcset=""
-          /></a>
-          <div class="con">
+        <swiper-slide>
+          <div class="maqe-out">
             <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><h4>Table</h4></a
-            >
-            <p>12 products</p>
+              ><img src="./imgs/Home/lamp-1.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <h4>Lamp</h4></a
+              >
+              <p>7 products</p>
+            </div>
           </div>
-        </div>
-      </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imgs/Home/table.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>Table</h4></a
+              >
+              <p>12 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imgs/Home/chair-1.jpg" alt="" srcset=""
+            /></a>
+
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>chair</h4></a
+              >
+              <p>5 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imgs/Home/bed.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>Bed</h4></a
+              >
+              <p>7 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imgs/Home/lamp-1.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <h4>Lamp</h4></a
+              >
+              <p>7 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="maqe-out">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imgs/Home/table.jpg" alt="" srcset=""
+            /></a>
+            <div class="con">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><h4>Table</h4></a
+              >
+              <p>12 products</p>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
     </section>
     <!-- /////////////////////////////////////////////sec5///////////////////////////////////// -->
     <section
@@ -840,6 +917,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
 
