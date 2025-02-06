@@ -240,14 +240,7 @@ a[class="form-check"]{
     width: calc(90%/2) !important;
 }
 
-
-.sec7>div{
-    width: calc(90% / 2) !important;
-    height: 60vh !important;
-    max-height: 100% !important;
-}
-
-.sec7>div .sec7-div2-upper{
+.productss-down .sec7-div2 .sec7-div2-upper{
     height: 50% !important;
 }
 
@@ -259,21 +252,11 @@ a[class="form-check"]{
     width: 30px !important;
     height: 30px !important;
 }
-
 .sec7-div2-upper-hidButtons button span {
     top: 0px !important;
 }
 
-.sec7>div:hover .sec7-div2-upper {
-    height: 50% !important;
-}
-
-
-
-.sec7-div2 .sec7-div2-selectOptions{
-    height: 30%;
-}
-.sec7>div .sec7-div2-selectOptions{
+.productss-down .sec7-div2-selectOptions{
     display: block !important;
     height: 30%;
     background-color: black;

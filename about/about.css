@@ -23,9 +23,6 @@
     width:100%;
 }
 
-
-
-
 /* ///////////////////////////div-before-header//////////////////////////// */
 .befor-header {
   font-size: 12px;
@@ -56,7 +53,6 @@ header {
   background-color: aliceblue;
 height: 20vh !important;
   padding: 5% !important;
-  box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .offcanvas-body{
@@ -199,10 +195,6 @@ header .hed-right div img {
 }
 
 /* /////////////////////////////////endHeader///////////////////////// */
-
-
-
-
 /* //////////////////navbreadcamp////////////////////// */
 
 nav{
@@ -245,6 +237,7 @@ nav{
 
 
 /* /////////////////////////////////////////////////////////header////////////////////////////////////////////// */
+
 .photHed{
     width: 100%;
     gap: 3rem !important;

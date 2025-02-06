@@ -1,4 +1,4 @@
-@media screenand (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .butn {
       display: none !important;
     }
