@@ -149,7 +149,7 @@
 
  .sec4{
     align-items: center;
-    height: 100vh !important;
+    height: fit-content !important;
     /* gap: 5vh; */
     margin: 5vh 0 !important;
  }
@@ -157,15 +157,44 @@
  .maqe{
     align-items: center;
     flex-wrap: wrap;
-    gap: 3vh;
+    height: 50vh;
+    gap: 1vh;
  }
 
- .maqe-out
- {
-    width:calc(80%/2) !important;
-    flex-direction: column !important;
-    gap: 3vh;
+ .maqe .maqe-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1vh !important;
+    height: 100% !important;
  }
+
+ .maqe swiper-slide{
+    width: calc(100%/2) !important;
+    height: 100% !important;
+    display: flex;
+}
+
+.maqe .maqe-out>a {
+    width: 100% !important;
+    height: fit-content;
+    /* max-height: 100%; */
+  }
+
+  .maqe-out .con{
+    width: 100% !important;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .maqe-out .con>a{
+    padding: 0% !important;
+    margin: 0 !important;
+  }
+ 
 
 
  /* ////////////////////////////////sec5orange///////////////////////////// */
@@ -265,33 +294,139 @@
     }
 
     /* ////////////////////////////////////////////////////////////////////////// */
+    .sec7{
+        position:relative;
+    }
+    .sec7-h1{
+    width: 100%;
+    display: block !important;
+    text-align: center;
+    max-width: 100%;
+    text-transform: capitalize;
+}
 
+.sec7-div1{
+    display: none !important;
+}
 
     .sec7>div{
         width: calc(90% / 2) !important;
-        height: 80vh !important;
+        height: 60vh !important;
         max-height: 100% !important;
     }
 
-    .sec7-div1 p{
-        font-size: 20px;
-        font-weight: 400;
-        text-transform: capitalize;
-        letter-spacing: 5px;
-        line-height: 40px;
+    .sec7>div .sec7-div2-upper{
+        height: 50% !important;
+    }
+
+    .sec7-div2-upper-hidButtons {
+        bottom: -20% !important;
+    }
+
+    .sec7-div2-upper-hidButtons button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .sec7-div2-upper-hidButtons button span {
+        top: 0px !important;
+    }
+
+    .sec7>div:hover .sec7-div2-upper {
+        height: 50% !important;
+    }
+
     
-        /* padding: 10% !important; */
-        
-        
+
+    .sec7-div2 .sec7-div2-selectOptions{
+        height: 30%;
+    }
+    .sec7>div .sec7-div2-selectOptions{
+        display: block !important;
+        height: 30%;
+        background-color: black;
+    }
+
+    .sec7-div2:hover .sec7-div2-selectOptions {
+        color: white;
+    }
+
+    .sec7-div2-lower {
+        height: 35% !important;
+    }
+
+    .sec7-div2-lower-price{
+        font-size: 16px;
+        font-weight: 500;
     }
 
     .sec7-btn-last{
+        position: absolute;
+        bottom: 0%;
+        left: center;
         display: block !important;
         color: rgb(255, 255, 255) !important;
-        width: 30% !important;
+        width: 30% !important; 
+        padding: 5% !important;
         /* height: 20% !important; */
         background: red !important;
     }
+
+/* /////////////////////////////////////////sec8/////////////////////////// */
+.our-blog{
+    max-width: 100%;
+}
+
+.our-blog>h1{
+ text-align: center;
+}
+
+.our-blog .first {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.our-blog .first .photo1 {
+width: 100%;
+}
+
+.our-blog .texxxxt{
+    gap: 1rem !important;
+}
+
+.our-blog .texxxxt h2{
+    text-align: left;
+}
+
+.our-blog .texxxxt p{
+    text-align: left;
+}
+
+.our-blog .tex{
+    width: 100%;
+    text-align: left;
+    align-items: start !important;
+}
+.our-blog .texxxxt{
+    align-items: start !important;
+}
+.our-blog .scond {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.our-blog .scond .photo1 {
+width: 100%;
+}
+
+
+.our-blog .first .photo2,
+.our-blog .scond .photo2{
+    display: none;
+}
+
 
 
 /* ///////////////////////////////////////////////////////////////////////////// */
