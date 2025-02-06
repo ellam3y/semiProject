@@ -336,6 +336,13 @@ text-align: center;
         max-height: 100% !important;
     }
 
+    
+    .sec7>div{
+        width: calc(90% / 2) !important;
+        height: 60vh !important;
+        max-height: 100% !important;
+    }
+
     .sec7>div .sec7-div2-upper{
         height: 50% !important;
     }
@@ -380,7 +387,6 @@ text-align: center;
         font-size: 16px;
         font-weight: 500;
     }
-
     .sec7-btn-last{
         position: absolute;
         bottom: 0%;

@@ -144,7 +144,7 @@
 /* ///////////////////////////end header////////////////////////// */
 .sec4{
     align-items: center;
-    height: 40vh !important;
+    height: 60vh !important;
     /* gap: 5vh; */
     margin: 5vh 0 !important;
  }
@@ -240,48 +240,56 @@ a[class="form-check"]{
     width: calc(90%/2) !important;
 }
 
-.taps{
-    display: block !important;
-    width:100% !important;
-    display: flex;
-    justify-content: center !important;
-    /* background-color: blue !important; */
-}
 
-.taps nav{
-    display: block;
-    width: 100%;
-    padding: 0% !important;
-}
-
-.taps .pagination{
-    width: 100% !important;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center !important;
-}
-
-.taps .pagination li{
-    width: fit-content;
-    height: fit-content;
-}
-.taps .pagination li a{
-    width: 3rem;
-    max-width: 100% !important;
-    height: 3rem;
+.sec7>div{
+    width: calc(90% / 2) !important;
+    height: 60vh !important;
     max-height: 100% !important;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    color: black;
-    font-weight: bold;
-    background-color: lightgray;
-    align-content: center;
-
 }
 
-.taps .pagination li.first a{
-    width: 5rem;
-    padding: 5% !important;
+.sec7>div .sec7-div2-upper{
+    height: 50% !important;
+}
+
+.sec7-div2-upper-hidButtons {
+    bottom: -20% !important;
+}
+
+.sec7-div2-upper-hidButtons button {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.sec7-div2-upper-hidButtons button span {
+    top: 0px !important;
+}
+
+.sec7>div:hover .sec7-div2-upper {
+    height: 50% !important;
+}
+
+
+
+.sec7-div2 .sec7-div2-selectOptions{
+    height: 30%;
+}
+.sec7>div .sec7-div2-selectOptions{
+    display: block !important;
+    height: 30%;
+    background-color: black;
+}
+
+.sec7-div2:hover .sec7-div2-selectOptions {
+    color: white;
+}
+
+.sec7-div2-lower {
+    height: 35% !important;
+}
+
+.sec7-div2-lower-price{
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* /////////////////////////////////////////////////foooter///////////////////////// */

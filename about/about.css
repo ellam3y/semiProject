@@ -359,7 +359,7 @@ nav{
 
 }
 
-.sec5 .card1{
+.sec5 .cards> swiper-slide{
     width: calc(90%/4);
     height: 100%;
     display: flex;
@@ -499,18 +499,40 @@ nav{
 .sec7{
     width: 100%;
     height: 50vh;
-    margin: 5vh 0;
+    /* background-color: #D9A734; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-.sec7>div{
-    width: calc(90%/6);
-    text-align: center;
+.sec7-divs{
+    width: 90%;
+    height: fit-content !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
 }
 
+.sec7-divs>swiper-slide{
+    width: calc(100%/6) !important;
+    height: fit-content !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.sec7-divs>div
+{
+    width: calc(100%/6) !important;
+    height: fit-content !important;
+
+}
+
+.sec7-divs div img{
+width: 100%;
+height: 100%;
+}
 
 /* /////////////////////////////////////////////footer//////////////////////////// */
 footer{

@@ -1,0 +1,290 @@
+@media screen and (max-width: 767px) {
+  .butn {
+    display: none !important;
+  }
+  .befor-header {
+    background-color: black !important;
+    padding: 7px 15px !important ;
+  }
+  .befor-header p {
+    width: 100%;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  /* ///////////////////////endbeforediv1////////////// */
+  /* ///////////////////////////////header////////////////////////////////////// */
+
+  header {
+    height: 10vh !important;
+    padding: 0% !important;
+  }
+
+  .hed-left {
+    width: 20% !important;
+  }
+  header .hed-left img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .hed-center {
+    width: 60% !important;
+  }
+
+  .hed-center img {
+    width: 120px !important;
+  }
+
+  .hed-right {
+    width: 20% !important;
+    /* justify-content: left !important; */
+  }
+
+  .hed-right div {
+    width: calc(90% / 2) !important;
+    justify-content: space-evenly !important;
+    padding: 0% !important;
+  }
+  .hed-right div img {
+    width: 80% !important;
+    /* height: 50px !important; */
+    padding: 0% !important;
+  }
+  .hed-right .hed-right-div-counter {
+    width: 60% !important;
+    height: 80% !important;
+    /* padding: 10% !important; */
+    top: -50% !important;
+    right: -20% !important;
+    font-size: 60%;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+  .offcanvas {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .offcanvas-header {
+    width: 100% !important;
+  }
+  .offcanvas-header button {
+    margin-right: 10% !important;
+    padding: 0% !important;
+  }
+
+  .right-offcanvas-body-con {
+    width: 70% !important;
+    max-width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* padding: 0% !important; */
+    margin-right: -40px !important;
+  }
+
+  .div1-hed-right-pepole {
+    display: none !important;
+  }
+
+  .reg {
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: start;
+    /* margin-top: 1.4em !important; */
+    position: absolute;
+    bottom: 0 !important;
+  }
+
+  .reg-btttn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+  }
+
+  .reg-div1-hed-right-pepole {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    font-size: x-small;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .reg-div1-hed-right-pepole a {
+    padding: 5% !important;
+    margin: 0 !important;
+    width: fit-content !important;
+    background-color: black;
+  }
+  .reg-div1-hed-right-pepole > img[src="./imgs/people.png"] {
+    width: 10% !important;
+    background-color: aliceblue;
+    padding: 0% !important;
+  }
+  /* ////////////////end headrr///////////////////////// */
+  /* ////////////////////////bredcamp///////////////////////// */
+  .breadcrumb {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  /* ///////////////////phothed///////////////////// */
+  .photHed h1 {
+    font-size: 30px;
+  }
+
+  .photHed p {
+    width: 100%;
+  }
+
+  .photHed .div2 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  /* ///////////////////sec4//////////////////////////////// */
+  .sec4 {
+    flex-direction: column-reverse;
+    margin: 10vh 0 !important;
+    height: 120vh;
+    justify-content: space-evenly;
+  }
+
+  .sec4 > div {
+    width: 100%;
+  }
+
+  .sec4-div2 {
+    height: 65% !important;
+  }
+  .sec4-div1 {
+    height: 25% !important;
+  }
+  /* //////////////////////////sec6/////////// */
+
+.sec6{
+    height: 60vh;
+}
+.sec6>div{
+    width: 95% !important;
+}
+  .sec6-div1 h1 {
+    width: 100% !important;
+    font-size: 25px !important;
+    letter-spacing: normal !important;
+  }
+
+  .sec6 div p{
+    width: 100%;
+  }
+  /* /////////////////sec7//////////////////// */
+ .sec7{
+    height:20vh !important;
+ }
+  /* /////////////////////foter//////////////////// */
+  footer {
+    height: fit-content !important;
+  }
+
+  .footer-div1 > div {
+    gap: 30px !important;
+    align-items: center !important;
+    margin: 1vh 0 !important;
+  }
+
+  .footer-div1 {
+    width: 100% !important;
+    height: 80% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: start !important;
+    /* gap: 40px !important; */
+    padding: 5% 0 !important;
+  }
+
+  .footer-div1-1 {
+    width: 100% !important;
+    order: 4 !important;
+    text-align: center !important;
+  }
+
+  .footer-div1-4 .icons {
+    justify-content: center !important;
+  }
+
+  .footer-div1-2,
+  .footer-div1-3 {
+    width: calc(80% / 2) !important;
+    justify-content: start !important;
+    text-align: center !important;
+  }
+
+  .footer-div1-3 a {
+    text-align: center !important;
+  }
+
+  .footer-div1-4 {
+    width: 100% !important;
+    order: 1 !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .footer-div1-4 h4,
+  .footer-div1-4 p {
+    text-align: center;
+  }
+
+  .footer-div2 {
+    width: 100% !important;
+    height: fit-content !important;
+    /* padding: 10% !important; */
+    border-top: 1px solid rgb(0, 0, 0);
+    display: flex !important;
+    flex-direction: column !important;
+    /* flex-wrap: wrap !important; */
+    gap: 10px !important;
+    /* justify-content: space-between !important; */
+    /* align-items: center !important; */
+    text-align: center !important;
+  }
+  .footer-div2-1 {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .footer-div2 div,
+  .footer-div2 p {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  footer .pay {
+    width: 100% !important;
+    height: 50px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+    align-items: start !important;
+  }
+  footer .pay img {
+    width: 200px !important;
+    margin-left: -50px !important;
+    height: 20px !important;
+  }
+}

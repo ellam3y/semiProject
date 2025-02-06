@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (min-width:768px) and (max-width: 992px) {
     header{
         height: 10vh !important;
         padding: 0% !important;
@@ -139,51 +139,7 @@
 
 
 
-    .taps{
-        display: block !important;
-        width:100% !important;
-        display: flex;
-        justify-content: center !important;
-        /* background-color: blue !important; */
-    }
-    
-    .taps nav{
-        display: block;
-        width: 100%;
-        padding: 0% !important;
-    }
-    
-    .taps .pagination{
-        width: 100% !important;
-        /* background-color: aqua; */
-        display: flex;
-        justify-content: center !important;
-    }
-    
-    .taps .pagination li{
-        width: fit-content;
-        height: fit-content;
-    }
-    .taps .pagination li a{
-        width: 3rem;
-        max-width: 100% !important;
-        height: 3rem;
-        max-height: 100% !important;
-        text-align: center;
-        border: 1px solid rgb(255, 255, 255);
-        color: black;
-        font-weight: bold;
-        background-color: lightgray;
-        align-content: center;
-    
-    }
-    
-    .taps .pagination li.first a{
-        width: 5rem;
-        padding: 5% !important;
-    }
-
-
+   
     /* /////////////////////////////////////////////////foooter///////////////////////// */
 
 footer{
