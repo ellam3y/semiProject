@@ -142,9 +142,29 @@
     
 
 /* ///////////////////////////end header////////////////////////// */
+/* .sec3-slider {
+    height: 120vh;
+} */
 
+.con-info-photo>.photo,
+.con-info-photo>.information{
+    height: 50% !important;
+}
 
+.con-info-photo .informations {
+justify-content: center !important;
+align-items: center !important;
+}
+.con-info-photo .p1 {
+text-align: center;
+}
+.con-info-photo h2 {
+    font-size: 26px;
+}
 
+.sec3-slider>.swiper-pagination{
+    margin-top: 100vh !important;
+}
     /* ////////////////////////////////////////الدوايررر///////////////////////////////////////// */
 
  .sec4{
