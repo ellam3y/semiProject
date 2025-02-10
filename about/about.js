@@ -8,6 +8,9 @@ const swiperEl = document.querySelector("swiper-container");
     },
     loop: true,
     breakpoints: {
+      992:{
+        slidesPerView: 4, // عند 768px أو أقل، عرض شريحتين
+      },
       767: {
         slidesPerView: 2, // عند 768px أو أقل، عرض شريحتين
       },

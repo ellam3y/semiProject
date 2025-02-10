@@ -1,0 +1,10 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #d1020d !important;
+  color: #d1020d !important;
+}
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  background-color: #d1020d !important;
+  color: #d1020d !important;
+}
